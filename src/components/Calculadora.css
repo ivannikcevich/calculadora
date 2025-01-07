@@ -1,0 +1,73 @@
+.container {
+    display: grid;
+    gap: 10px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.entradas {
+    display: grid;
+    border: 2px solid #747474;
+}
+
+.entrada {
+    color: #fff;
+    text-align: right;
+    height: 60px;
+    border: none;
+    padding: 0 10px;
+}
+
+
+.entrada-expresion {
+    font-size: 15px;
+}
+
+.entrada-input {
+    font-size: 30px;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 60px;
+    padding: 0;
+    border: 2px solid #747474;
+    border-radius: 5px;
+}
+.boton:hover {
+    opacity: 80%;
+}
+.boton:active {
+    opacity: 50%;
+}
+.boton:focus {
+    outline: none;
+}
+
+.boton-numero {
+    background-color: #0d0d0d;
+}
+
+.boton-operador {
+    background-color: #1a1a1a;
+}
+
+.boton-igual {
+    background-color: #003800;
+    grid-column: span 2;
+}
+
+.boton-borrar {
+    background-color: #550000;
+    grid-column: span 2;
+}
